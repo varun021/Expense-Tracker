@@ -1,4 +1,3 @@
-```
 # Expense-Tracker
 
 ## Introduction
@@ -53,4 +52,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any inquiries or issues, please open an [issue](https://github.com/varun021/Expense-Tracker/issues) in the repository.
-```
+
