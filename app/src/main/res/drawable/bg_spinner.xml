@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/colorSurface" /> <!-- Background color, using theme attribute -->
+            <corners android:radius="8dp" /> <!-- Rounded corners -->
+            <stroke
+                android:width="1dp"
+                android:color="?attr/colorOnSurface" /> <!-- Border color -->
+        </shape>
+    </item>
+</selector>

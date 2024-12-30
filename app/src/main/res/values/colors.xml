@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="colorPrimary">#2196F3</color> <!-- Purple 500 -->
+    <color name="colorPrimaryDark">#03A9F4</color> <!-- Purple 700 -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal 200 -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="backgroundLight">#F5F5F5</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="ui_background">#3F51B5</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC6</color> <!-- Teal 200 -->
+    <color name="colorSecondaryDark">#018786</color> <!-- Teal 700 -->
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="buttonTextColor">#2196F3</color>
+    <!-- Background colors -->
+    <color name="totalSectionBackgroundColor">#FFFFFF</color> <!-- White background for the totals section -->
+    <color name="recyclerViewBackgroundColor">#F0F0F0</color> <!-- Slightly darker gray for RecyclerView background -->
+
+    <!-- Text colors -->
+    <color name="totalIncomeColor">#4CAF50</color> <!-- Green for total income text -->
+    <color name="totalExpenseColor">#F44336</color> <!-- Red for total expense text -->
+    <color name="balanceColor">#FFC107</color> <!-- Amber for balance text -->
+
+    <!-- Divider color -->
+    <color name="dividerColor">#BDBDBD</color> <!-- Gray for divider lines -->
+
+
+</resources>

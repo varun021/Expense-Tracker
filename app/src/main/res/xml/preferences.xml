@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Theme selection -->
+    <ListPreference
+        android:key="theme_option"
+        android:title="Theme"
+        android:summary="Select a theme for the app's appearance"
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="system"
+        app:dialogTitle="Choose a Theme" />
+
+    <!-- Notifications toggle -->
+    <SwitchPreferenceCompat
+        android:key="notifications_enabled"
+        android:title="Enable Notifications"
+        android:summary="Toggle to receive notifications for upcoming bills and reminders"
+        android:defaultValue="true" />
+
+    <!-- Currency selection -->
+    <ListPreference
+        android:key="currency"
+        android:title="Currency"
+        android:summary="Choose the currency symbol or format"
+        android:entries="@array/currency_entries"
+        android:entryValues="@array/currency_values"
+        android:defaultValue="USD"
+        app:dialogTitle="Select Currency" />
+
+</PreferenceScreen>
